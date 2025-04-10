@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VO Danse - Tuyen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    main {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      color: #222;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VO DANSE - Tuyen</h1>
+    <p>Professeur de danse & Expert en outsourcing pour entreprises</p>
+  </header>
+
+  <nav>
+    <a href="#danse">Cours de danse</a>
+    <a href="#outsourcing">Outsourcing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="danse">
+      <h2>Prestations de danse</h2>
+      <p>Avec plus de 25 ans d’expérience, je propose des cours et stages de :</p>
+      <ul>
+        <li>Bachata (moderne, sensual, dominicaine)</li>
+        <li>Salsa (LA style, On1, Cubaine)</li>
+        <li>Kizomba & Lamba Zouk</li>
+        <li>Danse de couple sur-mesure pour événements</li>
+      </ul>
+      <p>Interventions possibles en école, entreprise, festival, EVJF/EVG, etc.</p>
+    </section>
+
+    <section id="outsourcing">
+      <h2>Prestations d’outsourcing</h2>
+      <p>Via VO Consulting, je propose des prestations personnalisées pour entreprises :</p>
+      <ul>
+        <li>Support administratif et commercial</li>
+        <li>Développement web et marketing digital</li>
+        <li>Gestion de projet, coordination d’équipes</li>
+        <li>Recherche de prestataires et solutions sur-mesure</li>
+      </ul>
+      <p>Externalisez ce qui vous ralentit, concentrez-vous sur votre cœur de métier !</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email : <a href="mailto:tvo@voconsulting.fr">tvo@voconsulting.fr</a></p>
+      <p>📞 Téléphone : à la demande</p>
+      <p>🌐 Site en construction – restez connectés !</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 VO DANSE / VO CONSULTING - Tous droits réservés
+  </footer>
+</body>
+</html>
